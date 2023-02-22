@@ -42,7 +42,7 @@
 				<fieldset>
 					<label for="terms">
 						<input type="checkbox" role="switch" id="terms" name="terms">
-						I agree to the <a href="#" on:click={(e) => e.preventDefault()}>Privacy Policy</a>
+						I agree to the <a href="../about">Privacy Policy</a>
 					</label>
 				</fieldset>
 			</form>
@@ -84,57 +84,6 @@
 				</li>
 			</ul>
 
-			<!-- Inline text elements-->
-			<h3>Inline text elements</h3>
-			<div class="grid">
-				<p>
-					<a href="#" on:click={(e) => e.preventDefault()}
-						>Primary link</a
-					>
-				</p>
-				<p>
-					<a
-						href="#"
-						class="secondary"
-						on:click={(e) => e.preventDefault()}
-						>Secondary link</a
-					>
-				</p>
-				<p>
-					<a
-						href="#"
-						class="contrast"
-						on:click={(e) => e.preventDefault()}
-						>Contrast link</a
-					>
-				</p>
-			</div>
-			<div class="grid">
-				<p><strong>Bold</strong></p>
-				<p><em>Italic</em></p>
-				<p><u>Underline</u></p>
-			</div>
-			<div class="grid">
-				<p><del>Deleted</del></p>
-				<p><ins>Inserted</ins></p>
-				<p><s>Strikethrough</s></p>
-			</div>
-			<div class="grid">
-				<p><small>Small </small></p>
-				<p>Text <sub>Sub</sub></p>
-				<p>Text <sup>Sup</sup></p>
-			</div>
-			<div class="grid">
-				<p>
-					<abbr
-						title="Abbreviation"
-						data-tooltip="Abbreviation">Abbr.</abbr
-					>
-				</p>
-				<p><kbd>Kbd</kbd></p>
-				<p><mark>Highlighted</mark></p>
-			</div>
-
 			<!-- Headings-->
 			<h3>Heading 3</h3>
 			<p>
@@ -144,44 +93,6 @@
 				fringilla. Class aptent taciti sociosqu ad litora
 				torquent per conubia nostra, per inceptos himenaeos.
 			</p>
-			<h4>Heading 4</h4>
-			<p>
-				Cras fermentum velit vitae auctor aliquet. Nunc non
-				congue urna, at blandit nibh. Donec ac fermentum
-				felis. Vivamus tincidunt arcu ut lacus hendrerit,
-				eget mattis dui finibus.
-			</p>
-			<h5>Heading 5</h5>
-			<p>
-				Donec nec egestas nulla. Sed varius placerat felis
-				eu suscipit. Mauris maximus ante in consequat
-				luctus. Morbi euismod sagittis efficitur. Aenean non
-				eros orci. Vivamus ut diam sem.
-			</p>
-			<h6>Heading 6</h6>
-			<p>
-				Ut sed quam non mauris placerat consequat vitae id
-				risus. Vestibulum tincidunt nulla ut tortor posuere,
-				vitae malesuada tortor molestie. Sed nec interdum
-				dolor. Vestibulum id auctor nisi, a efficitur sem.
-				Aliquam sollicitudin efficitur turpis, sollicitudin
-				hendrerit ligula semper id. Nunc risus felis,
-				egestas eu tristique eget, convallis in velit.
-			</p>
-
-			<!-- Medias-->
-			<figure>
-				<img
-					src="assets/aleksandar-jason-a562ZEFKW8I-unsplash-2000x1000.jpg"
-					alt="Minimal landscape"
-				/>
-				<figcaption>
-					Image from <a
-						href="https://unsplash.com/photos/a562ZEFKW8I"
-						target="_blank">unsplash.com</a
-					>
-				</figcaption>
-			</figure>
 		</section>
 		<!-- ./ Typography-->
 

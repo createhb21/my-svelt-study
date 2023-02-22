@@ -1,8 +1,25 @@
 <script>
 	import '@picocss/pico'
+	import NProgress from 'nprogress';
+	import { navigating } from '$app/stores';
 
 	import Header from './Header.svelte'
+	import 'nprogress/nprogress.css';
 	import '../styles/app.css'
+
+	NProgress.configure({
+		// Full list: https://github.com/rstacruz/nprogress#configuration
+		minimum: 0.16
+	});
+
+	$: {
+		if ($navigating) {
+			NProgress.start();
+		}
+		if (!$navigating) {
+			NProgress.done();
+		}
+	}
 </script>
 
 <div class="app">
