@@ -1,14 +1,12 @@
 <script>
-	import '@picocss/pico'
-	import NProgress from 'nprogress';
 	import { navigating } from '$app/stores';
+	import NProgress from 'nprogress';
+	import 'nprogress/nprogress.css';
+	import '@picocss/pico'
 
 	import Header from './Header.svelte'
-	import 'nprogress/nprogress.css';
-	import '../styles/app.css'
 
 	NProgress.configure({
-		// Full list: https://github.com/rstacruz/nprogress#configuration
 		minimum: 0.16
 	});
 
